@@ -1,5 +1,5 @@
 # This file contains settings for `cargo hakari`.
-# See https://docs.rs/cargo-hakari/latest/cargo_hakari/config for a full list of options.
+# See https://docs.rs/cargo-hakari/latest/cargo_hakari/config for a full list of available options.
 
 hakari-package = "workspace-hack"
 
@@ -8,7 +8,7 @@ dep-format-version = "4"
 
 # Setting workspace.resolver = "2" in the root Cargo.toml is HIGHLY recommended.
 # Hakari works much better with the new feature resolver.
-# For more about the new feature resolver, see:
+# For more details about the new feature resolver, kindly see:
 # https://blog.rust-lang.org/2021/03/25/Rust-1.51.0.html#cargos-new-feature-resolver
 resolver = "2"
 
